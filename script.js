@@ -15,8 +15,12 @@ function getComputerChoice() {
 }
 
 function getHumanChoice() {
-    const result = prompt('What is your choice?');
+    const result = prompt('What is your choice?').toLowerCase();
     console.log(result);
+}
+
+function playRound(humanChoice, computerChoice) {
+
 }
 getComputerChoice();
 getHumanChoice();
