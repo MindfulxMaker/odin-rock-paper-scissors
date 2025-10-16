@@ -14,12 +14,12 @@ function getComputerChoice() {
                             : "scissors"
 }
 
-console.log(getComputerChoice());
-
 function getHumanChoice() {
-    const answer = prompt("What is your choice? Rock, Paper of Scissors?");
+    const answer = prompt("What is your choice? Rock, Paper of Scissors?").toLowerCase();
 
     console.log(answer);
 }
 
-getHumanChoice();
+function playRound(humanChoice, computerChoice) {
+    
+}
