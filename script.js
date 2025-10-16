@@ -9,3 +9,13 @@ function getComputerChoice() {
                             : random === 2 ? "paper" 
                             : "scissors"
 }
+
+console.log(getComputerChoice());
+
+function getHumanChoice() {
+    const answer = prompt("What is your choice? Rock, Paper of Scissors?");
+
+    console.log(answer);
+}
+
+getHumanChoice();
