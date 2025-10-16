@@ -1,3 +1,7 @@
+let humanScore = 0;
+let computerScore = 0;
+
+
 function getComputerChoice() {
     // Create a variable for storing random number from 1 to 3
     const random = Math.floor(Math.random() * 3) + 1;
